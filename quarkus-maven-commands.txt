@@ -1,0 +1,14 @@
+mvn -U io.quarkus:quarkus-maven-plugin:create \
+-DprojectGroupId=org.agoncal.quarkus.microservices \
+-DprojectArtifactId=rest-number \
+-DclassName="org.agoncal.quarkus.microservices.number.NumberResources" \
+-Dpath="/api/numbers" \
+-Dextensions="resteasy-jsonb, smallrye-openapi"
+
+
+mvn -U io.quarkus:quarkus-maven-plugin:create \
+-DprojectGroupId=org.agoncal.quarkus.microservices \
+-DprojectArtifactId=rest-book \
+-DclassName="org.agoncal.quarkus.microservices.book.BookResources" \
+-Dpath="/api/books" \
+-Dextensions="resteasy-jsonb, smallrye-openapi"
