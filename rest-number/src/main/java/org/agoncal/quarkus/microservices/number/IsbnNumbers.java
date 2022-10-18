@@ -4,7 +4,6 @@ import org.eclipse.microprofile.openapi.annotations.media.Schema;
 
 import javax.json.bind.annotation.JsonbProperty;
 import javax.json.bind.annotation.JsonbTransient;
-import java.beans.Transient;
 import java.time.Instant;
 
 @Schema(description = "Several ISBN numbers for books")
